@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto+Condensed & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Barlow+Condensed & display=swap");
+/* Gestion de toute la page */
+body {
+  background-image: url("text2.jpeg");
+  background-repeat: repeat;
+  font-family: "Indie Flower", cursive;
+  margin: 0px 0px 2px 0px;
+}
+/* Gestion position du Panel et de la Bordure */
+#menu {
+  height: 75px;
+  background: white;
+  border: 2px black solid;
+  display: flex;
+  flex-wrap: row;
+}
+/* Event Panel */
+.fonction1 {
+  display: flex;
+  flex: 1;
+  background: url("dl.jpeg");
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+/* Discord Panel */
+.fonction2 {
+  display: flex;
+  flex: 1;
+  background: url("dl.jpeg");
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+/* Présentation Panel */
+.fonction3 {
+  order: -2;
+  display: flex;
+  flex: 1;
+  background: url("dl.jpeg");
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+/* Inscription Panel */
+.fonction4 {
+  display: flex;
+  flex: 1;
+  background: url("dl.jpeg");
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+/* Gestion texte des fonction  */
+.content-menu {
+  font-size: 1.3rem;
+  text-align: center;
+  font-style: italic;
+  padding-left: 2px;
+}
+/* Gestion positionnement et bordure Titre Principal */
+.title {
+  border: 4px solid #2196f330;
+  border-radius: 10px / 10px;
+  display: flex;
+  width: 45%;
+  min-width: 300px;
+  height: 100%;
+  padding: 0;
+  margin: 3px auto;
+  box-shadow: inset -3px 6px 20px 0px white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+/* Gestion texte du Titre */
+.title-style {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-style: italic;
+  text-align: center;
+  word-wrap: break-word;
+}
+/* Gestion des lien */
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: green;
+}
+/* Fin de Gestion des lien  */
+
+/* Gestion position et bordure de l'article */
+#show {
+  padding: 20px;
+  font-family: "Barlow Condensed";
+  display: flex;
+  border: 4px solid #2196f330;
+  border-radius: 10px / 10px;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  background-color: white;
+  word-wrap: break-word;
+}
+/* Gestion des texte de l'article */
+.text-show {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.color-pa {
+  color: red;
+  /* Article and Footer*/
+
+  text-decoration: underline;
+}
+/* Fin de gestion des texte de l'article */
+
+/* Icone dofus menu */
+.icon-menu {
+  height: 20px;
+}
